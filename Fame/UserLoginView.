@@ -1,0 +1,22 @@
+//
+//  UserLoginView.swift
+//  Fame
+//
+//  Created by Matthew Wall on 2/10/16.
+//  Copyright © 2016 Matthew Wall. All rights reserved.
+//
+
+import Foundation
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController {
+    
+    IBOutlet UITextField *usernameField;
+    IBOutlet UITextField *passwordField;
+    
+    NSDictionary *credentialsDictionary;
+    }
+    
+    - (IBAction)enterCredentials;
+
+@end
